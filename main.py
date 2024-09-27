@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 
 model = CatBoostRegressor()
 model.load_model('/home/aleksey/DS_bootcamp/houses_prices/model.cbm')
-preprocessor = joblib.load('houses_prices/preprocessor.pkl')
+preprocessor = joblib.load('preprocessor/preprocessor.pkl')
 
 st.title('Предсказание цены квартиры')
 
