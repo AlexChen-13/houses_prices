@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import sklearn
+import catboost
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
 from catboost import CatBoostRegressor
